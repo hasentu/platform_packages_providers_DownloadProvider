@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Action buttons in download notification -->
+    <!-- 下载通知中的操作按钮 -->
+    <string name="download_stop">停止</string>
+    <string name="download_resume">繼續</string>
+    <string name="download_pause">暫停</string>
+    <string name="download_retry">重試</string>
+
+    <string name="download_stop_all">全部停止</string>
+    <string name="download_resume_all">全部繼續</string>
+    <string name="download_pause_all">全部暫停</string>
+    <string name="download_retry_all">全部重試</string>
+
+    <!-- Time duration in seconds -->
+    <!-- 以秒钟表达的时长 -->
+    <plurals name="duration_seconds">
+         <item quantity="one"><xliff:g id="count">%d</xliff:g> 秒</item>
+         <item quantity="other"><xliff:g id="count">%d</xliff:g> 秒</item>
+    </plurals>
+    <!-- Time duration in minutes -->
+    <!-- 以分钟表达的时长 -->
+    <plurals name="duration_minutes">
+         <item quantity="one"><xliff:g id="count">%d</xliff:g> 分</item>
+         <item quantity="other"><xliff:g id="count">%d</xliff:g> 分</item>
+    </plurals>
+    <!-- Time duration in hours -->
+    <!-- 以小时表达的时长 -->
+    <plurals name="duration_hours">
+         <item quantity="one"><xliff:g id="count">%d</xliff:g> 小時</item>
+         <item quantity="other"><xliff:g id="count">%d</xliff:g> 小時</item>
+    </plurals>
+
+</resources>
